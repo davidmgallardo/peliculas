@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       title: 'Películas',
       debugShowCheckedModeBanner: false,
       initialRoute: '/',
-      routes: {
+      routes: { // Donde se especifican todas las rutas de la aplicación
         '/'         : ( BuildContext context ) => HomePage(),
         'detalle'   : ( BuildContext context ) => PeliculaDetalle(),
       },
